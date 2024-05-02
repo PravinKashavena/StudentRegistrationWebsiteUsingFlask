@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Student</title>
+        <style>
+        /* Define the style for the button */
+        button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+
+        /* Style the button when hovered */
+        button:hover {
+            background-color: "green";
+        }
+        body {
+            background-color: lightblue;
+        }
+
+    </style>
+</head>
+<body>
+
+
+
+    <h1>Register Student</h1>
+    <form method="post" action="/register">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="institute">Institute:</label><br>
+        <input type="text" id="institute" name="institute" required><br>
+        <label for="course">Course:</label><br>
+        <input type="text" id="course" name="course" required><br><br>
+        <input type="submit" value="Register">
+
+    </form>
+</body>
+<br>
+<br>
+<table border="5" height="50" width="50" cellpadding="5" cellspacing="1">
+
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>email</th>
+        <th>institute</th>
+        <th>course</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Shubhangi Hande</td>
+        <td>shubhangi14797@gmail.com</td>
+        <td>SMVITA</td>
+        <td>DBDA</td>
+    </tr>
+
+</table>
+</html>
+<br>
+<br>
+<a href="/enter"><button align ="center">Return to home page</button></a>
+
+
